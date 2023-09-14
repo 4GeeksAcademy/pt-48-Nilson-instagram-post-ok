@@ -1,11 +1,12 @@
 body{font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
-    font-size: medium;
+    font-size: small;
 }
-
-
 .post{
-    width: 300px
+    width: 300px;
+    border: 1px solid gray;
+    padding: 1rem;
+    border-radius:10px;
 }
 .vertical{
     display: flex;
@@ -14,13 +15,26 @@ body{font-family: 'Open Sans', sans-serif;
     align-items: stretch;
     gap: 0.5em;
 }
-.horizontal{
+.horizontal {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: stretch;
-    gap: 0.5em;
-}
+    gap: 1rem;
+  }
+  
+  .logo {
+    width: 2rem;
+  }
+  
+  .menu {
+    width: 2rem;
+  }
+  
+  .header-text {
+    width: 100%;
+    gap: 0.1rem;
+  }
 .material-symbols-outlined {
     font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
   }

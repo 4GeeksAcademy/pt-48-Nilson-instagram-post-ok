@@ -31,6 +31,7 @@ body{font-family: 'Open Sans', sans-serif;
     width: 2rem;
   }
   .header-text{
+    align-content: flex-start;
     width: 100%;
     gap: 1rem;
   }

@@ -4,6 +4,7 @@ body{font-family: 'Open Sans', sans-serif;
 }
 .post{
     width: 300px;
+    justify-content: center;
     border: 1px solid gray;
     padding: 1rem;
     border-radius:10px;
@@ -11,7 +12,6 @@ body{font-family: 'Open Sans', sans-serif;
 .vertical{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: stretch;
     gap: 0.5em;
 }
@@ -22,15 +22,19 @@ body{font-family: 'Open Sans', sans-serif;
     align-items: stretch;
     gap: 1rem;
   }
-
-  .logo {
-    width: 2rem;
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content:start;  
+  width: 0%;
   }
-  
   .menu {
     width: 2rem;
   }
   .header-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
     align-content: flex-start;
     width: 100%;
     gap: 1rem;
